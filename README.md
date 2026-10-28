@@ -1,4 +1,4 @@
-# Hosting Grace's Training on GitHub Pages (no banner, home screen app)
+# Hosting Grace's Training on GitHub Pages
 
 1. Sign in at github.com and click New repository. Name it `grace-training`. Choose Public. Create it.
 2. Click "uploading an existing file". Drag in all five files from this folder: index.html, manifest.webmanifest, icon-180.png, icon-192.png, icon-512.png. Click Commit changes.
