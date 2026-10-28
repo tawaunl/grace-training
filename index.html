@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Grace's Training">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="theme-color" content="#F8F3EA" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#18120C" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="icon-180.png">
@@ -18,8 +18,7 @@
 @media (prefers-color-scheme:dark){:root{--bg:#18120c;--ink:#f6ecda}}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
 body{overflow:hidden}
-/* iPhone home screen apps report a window shorter than the screen by the status bar height, so add it back. */
-iframe{position:fixed;top:0;left:0;right:0;display:block;width:100%;height:calc(100% + env(safe-area-inset-top));border:0;background:var(--bg)}
+iframe{position:fixed;top:0;left:0;right:0;bottom:0;display:block;width:100%;height:100%;border:0;background:var(--bg)}
 noscript{display:block;padding:24px}
 </style>
 </head>
